@@ -1,6 +1,10 @@
 import argparse 
 import os
 
+
+from lib.config import Hyper
+
+
 parser = argparse.ArgumentParser()
 parser.add_argument(
                     '--exp_name',
